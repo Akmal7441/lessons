@@ -1,0 +1,72 @@
+
+extends layouts/main
+block content 
+    style.
+        body{
+        background:#1e1e1e;
+        }
+        h1{
+            color:#fff;
+        }
+        input{
+            color:#fff;
+            max-width:400px;
+            margin-top:40px !important;
+        }
+        .login {
+            display:flex;
+            flex-direction:column;
+            max-width:400px;
+        }
+        textarea{
+            max-width:400px;
+            height:150px;
+            resize: none;
+            color:#fff;
+        }
+        button{
+            background: transparent;
+            border : 0.25px solid #c1c1c1;
+            max-width:400px;
+            margin-top: 20px;
+            padding:10px 0;
+            color :#fff;
+            cursor:pointer;
+        }
+        footer{
+            margin-top:66px;
+        }
+        :focus{
+            outline:none;
+        }
+        h2{
+            color:#fff;
+            margin-bottom:40px;
+        }
+        p{
+            color:#fff;
+            font-size:18px;
+            margin-bottom:30px !important;
+        }
+
+       
+        
+                    
+    .container 
+        .row
+            .col.s6 
+                .login 
+                    input(type="text",placeholder="Name")     
+                    input(type="text", placeholder="Last Name")     
+                    input(type="number", placeholder="Phone Number")     
+                    input(type="text", placeholder="Email") 
+                    textarea(placeholder='Message' ,value="msg" cols="30", rows="10")  
+                    button SEND
+            .col.s6
+                .infogram
+                    h2 How Can We Help?
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic atque dolore eos doloremque eius obcaecati cumque, unde deserunt fugiat quia non optio fugit rerum, dicta accusamus et, ut a facere!
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic atque dolore eos doloremque eius obcaecati cumque, unde deserunt fugiat quia non optio fugit rerum, dicta accusamus et, ut a facere!
+                    p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, consectetur velit alias esse enim odit deleniti repellendus ipsum totam autem illo hic, voluptatibus rem assumenda aliquam ullam natus omnis delectus. Hic dolore adipisci delectus quibusdam culpa tempore aliquid facere doloribus?
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, sapiente.    
+            
